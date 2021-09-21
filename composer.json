@@ -1,0 +1,23 @@
+{
+  "name": "md-netdesign/highlighter",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MdNetdesign\\Highlighter\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tom Janke",
+      "email": "tom.janke@md-netdesign.de"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "twig/twig": "^3.3",
+    "symfony/dependency-injection": "^5.3",
+    "symfony/config": "^5.3",
+    "symfony/http-kernel": "^5.3"
+  }
+}

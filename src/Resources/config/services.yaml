@@ -1,0 +1,3 @@
+services:
+  MdNetdesign\Highlighter\Highlighter:
+    tags: [ 'twig.extension' ]
